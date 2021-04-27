@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom';
 function Login() {
     return (
         <div className="container text-center Background">
-            <img className="center" src="/img/logo.png" alt="" />
+            <div className="container">
+            <img className="conteiner center" src="/img/logo.png" alt="" />
             <h1 className="mt-5 mb-60">Fazer login</h1>
             <form>
                 <div className="mb-3">
@@ -16,6 +17,7 @@ function Login() {
                     <input type="checkbox" className="form-check-input me-2" id="lsenha" />
                     <label className="form-check-label" for="lsenha">Lembrar Senha</label>
                 </div>
+                
                 <Link className="btn btn-primary button2" to="/home">Entrar</Link>
             </form>
             <h1 className="mt-5 mb-3">Ou</h1>
@@ -28,7 +30,7 @@ function Login() {
                     Novo usuario? Crie uma conta
                 </Link>
             </div>
-
+            </div>
             <p className="mt-3 mb-3"> <Link to="/recovery">Esqueceu sua senha? Clique aqui.</Link></p>
 
         </div>
