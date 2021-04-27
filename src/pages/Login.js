@@ -2,8 +2,8 @@ import { Link } from 'react-router-dom';
 
 function Login() {
     return (
-        <div className="container text-center">
-            <img className="mt-4" src="/img/logo.png" alt="" />
+        <div className="container text-center Background">
+            <img className="center" src="/img/logo.png" alt="" />
             <h1 className="mt-5 mb-60">Fazer login</h1>
             <form>
                 <div className="mb-3">
