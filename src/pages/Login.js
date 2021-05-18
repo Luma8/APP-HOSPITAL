@@ -4,7 +4,7 @@ function Login() {
     return (
         <div className="container text-center Background">
             <div className="container">
-            <img className="conteiner center" src="/img/logo.png" alt="" />
+            <img className="conteiner center" src="/img/Samaritano.png" alt="" />
             <h1 className="mt-5 mb-60">Fazer login</h1>
             <form>
                 <div className="mb-3">

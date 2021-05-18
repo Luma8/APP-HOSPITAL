@@ -10,7 +10,7 @@ function NavSearch(){
               <input  className="form-control searchInput" type="search" placeholder="Pesquisar" aria-label="Search" />
 
             </form>
-            <div className="logo"> <img className="responsive-img-logo" src="img/logo.png" alt="logo" /> </div>
+            <div className="logo"> <img className="responsive-img-logo" src="img/Samaritano.png" alt="logo" /> </div>
           </div>
 
         </nav>
